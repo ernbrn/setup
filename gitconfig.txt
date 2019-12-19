@@ -25,6 +25,7 @@
   up = !git fetch origin && git rebase origin/master
   new = checkout -b
   del = branch -D
+  punch = push --force
 
 
 [difftool "Kaleidoscope"]
